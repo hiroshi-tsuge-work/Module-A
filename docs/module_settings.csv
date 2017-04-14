@@ -3,4 +3,5 @@
 "Kishu-B" , "" , "Kishu-BC" , "" , "Module-A" , "MODULE-B"      # 機種2つが1つのブランチで開発されているケース、親側
 "Kishu-C" , "Kishu-B" , "" , "" , "" , ""                 # 機種2つが1つのブランチで開発されているケース、子側。新機種立ち上げ時もこうなる。
 "Kishu-D" , "" , "Kishu-D" , "" , "Module" , "MODULE-B" 
-"Kishu-Ax" , "" , "commit-id" , "" , "Module-A" , "MODULE-B"    # 特定のcommit-id固定で枝番の機種が開発される場合 
+"Kishu-Ax" , "Kishu-A" , "" , "" , "Module-A" , "MODULE-B"    # 特定のcommit-id固定で枝番の機種が開発される場合 
+"Kishu-Bx" , "Kishu-B" , "" , "" , "Module-A" , "MODULE-B"    # 特定のcommit-id固定で枝番の機種が開発される場合 
